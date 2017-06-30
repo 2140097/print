@@ -1,0 +1,482 @@
+#pagebox {
+    margin: 10% auto;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 20%;
+    min-width: 220px;
+    max-width: 270px;
+    background: #222222;
+}
+
+#pagebox h1 {
+    font-family: Courier New, Courier, monospace;
+    color: white;
+}
+
+#pagelinks a{
+    margin: 2%;
+    padding: 0.5em;
+    border-radius: 5px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-family: Verdana;
+}
+
+#pagelinks #login {
+    background-color: #7f8c8d;
+}
+
+#pagelinks #login:hover {
+    background-color: #95a5a6;
+}
+
+#pagelinks #chkb {
+    background-color: #2980b9;
+}
+
+#pagelinks #chkb:hover {
+    background-color: #3498db;
+}
+
+/* login */
+#loginbox {
+    font-family: Verdana;
+}
+
+#loginbox input {
+    width: 90%;
+}
+
+#fields{
+    margin-bottom: 0.3em;
+}
+
+#loginbtn {
+    color: white;
+    border-radius: 5px;
+    padding: 0.5em;
+    background-color: #34495e;
+    border: none;
+}
+
+#loginbtn:hover {
+    background-color: #2c3e50;
+}
+
+#backdiv {  
+    text-decoration: none;
+    font-family: Verdana;
+    color: white;
+    text-align: left;
+    margin: 0.5em;
+}
+
+#backdiv a{
+    text-decoration: none;
+}
+
+#back{  
+    text-decoration: none;
+    font-family: Verdana;
+    color: white;
+}
+
+/**/
+#chkbtn {
+    color: white;
+    border-radius: 5px;
+    padding: 0.5em;
+    background-color: #2980b9;
+    border: none;
+}
+
+#chkbtn:hover {
+    background-color: #3498db;
+}
+
+/*nav*/
+#top_nav {
+    background: #34495e;
+    font-family: Verdana;
+    text-align: right;
+}
+
+#top_nav ul {
+    padding: 10px;
+}
+
+#top_nav li{
+    display: inline;
+}
+
+#top_nav a{
+    color: white;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+#top_nav a:hover{
+    color: #95a5a6;
+}
+
+/*side nav*/
+#side_nav {
+    background: #34495e;
+    font-family: Verdana;
+    width: 130px;
+    min-width: 130px;
+    float: left;
+    overflow: auto;
+}
+
+#side_nav ul {
+    padding: 0px;
+}
+
+#side_nav a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+#top_nav a:hover{
+    color: #95a5a6;
+}
+
+#side_nav a:hover {
+    background-color:#2c3e50;
+}
+
+#request_table {
+    text-align: center;
+}
+
+#processbtn:hover {
+    filter: brightness(115%);
+}
+
+#prntbtn:hover {
+    filter: invert(30%);
+}
+
+/*admin menu*/
+#adminbox {
+    text-align: center;
+    margin: 10em auto;
+}
+
+#adminbox h1{
+    text-transform: uppercase;
+    font-family: Calibri;
+    font-size: 4em;
+    color: #595959;
+}
+
+#admin_menu a {
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    padding-left: 0.9em;
+    padding-right: 0.9em;
+    color: #34495e;
+    font-family: Verdana;
+    margin: 0.5em;
+    border: 1px solid #34495e;
+}
+
+#admin_menu a:hover {
+    background-color: #34495e;
+    color: white;
+    border: 1px solid #34495e;
+}
+
+/*tables*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+    white-space: nowrap;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #34495e;
+    color: white;
+}
+
+table { page-break-inside:auto }
+   tr    { page-break-inside:avoid; page-break-after:auto }
+
+/*filenotfound msg*/
+#filenotfoundbox {
+    margin: 10em auto;
+    text-align: center;
+}
+
+/*requestlist*/
+#listrequest_box h1 {
+    padding-left: 10px;
+    margin-bottom: 10px;
+    color: white;
+    background: #34495e;
+    font-weight: normal;
+}
+
+/*userlist*/
+#userlist_box, #listrequest_box, #adduser_box, #assessment_box, #prnt_request_box, #chkbox, #client_print_list {
+    margin-left: 150px;
+    font-family: Calibri;
+}
+
+#userlist_box h1 {
+    padding-left: 10px;
+    font-weight: normal;
+    color: white;
+    background: #34495e;
+    white-space: nowrap;
+}
+
+#userlistmenu {
+    margin-bottom: 17px;
+    white-space: nowrap;
+}
+
+#userlistmenu a {
+    text-decoration: none;
+    margin-right: 2px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    border-radius: 3px;
+}
+
+#userlistmenu #add_user {
+    background: #1abc9c;
+}
+
+#userlistmenu #add_user:hover {
+    background: #16a085;
+}
+
+#userlistmenu #reset_tokens {
+    background: #9b59b6;
+}
+
+#userlistmenu #reset_tokens:hover {
+    background: #8e44ad;
+}
+
+#userlistmenu #delete_list {
+    background: #e74c3c;
+}
+
+#userlistmenu #delete_list:hover {
+    background: #c0392b;
+}
+
+#adduser_box h1 {
+    color: white;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    background: #34495e;
+}
+
+#adduser_box #upload_csv {
+    color: white;
+    background: #16a085;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#adduser_box #upload_csv label {
+    font-size: 20px;
+}
+
+#adduser_box #upload_csv #file_box {
+    background: white;
+    color: #1abc9c;
+}
+
+#adduser_box #add_user{
+    background: #2980b9;
+    padding: 10px;
+    color: white;
+}
+
+#adduser_box #add_user label {
+    margin-left: 2px;
+    font-size: 20px;
+}
+
+#adduser_box #add_user input {
+    margin: 2px;
+}
+
+#adduser_box #add_user select {
+    color: #222222;
+}
+
+#token_reset_box {
+    font-family: Calibri;
+    margin: 200px auto;
+    text-align: center;
+    width: 25%;
+    min-width: 220px;
+    color: white;
+    display: block;
+    white-space: nowrap;
+    background: #2c3e50;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+
+#token_reset_box a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+
+#token_reset_box #reset_tokens_label {
+    font-size: 22px;
+    margin: 20px;
+}
+
+#token_reset_box #resetbtnbox {
+    margin: 10px;
+}
+
+
+#token_reset_box #reset_pw_btn {
+    color: white;
+    background-color: #e74c3c;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+    border: none;
+    margin: 10px;
+}
+
+#token_reset_box #reset_pw_btn:hover {
+    background: #c0392b;
+}
+
+#cancelbtn {
+    text-decoration: none;
+    font-size: 20px;
+    color: #004C79;
+}
+
+#cancelbtn:hover {
+    color: #005F97;
+}
+
+/*assessment*/
+#assessment_box h1 {
+    color: white;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    background: #34495e;
+}
+
+#assessment_details {
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    background: #34495e;
+    margin-bottom: 10px;
+}
+
+#manual_assessment {
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    background: #34495e;
+    margin-bottom: 10px;
+}
+
+#automated_assessment {
+    display: none;
+}
+
+#assessed_box {
+    margin: 100px auto;
+    font-family: Verdana;
+    text-align: center;
+}
+
+#assessed_box a{
+    text-decoration: none;
+}
+
+/*list print*/
+#list_print h1 {
+    font-family: Calibri;
+    font-weight: normal;
+    margin: 0;
+    color: #34495e;
+}
+
+/*print reqeust*/
+#prnt_request_box {
+    color: white;
+    font-family: Calibri;
+    padding: 10px;
+    background: #34495e;
+}
+
+#prnt_request_box h1{
+    font-weight: normal;
+    margin: 1px;
+}
+
+/*chkb box*/
+#chkbox {
+    background: #34495e;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+#chkbox p {
+    font-size: 20px;
+}
+
+/*client requests*/
+#client_print_list h1 {
+    padding-left: 10px;
+    margin-bottom: 10px;
+    color: white;
+    background: #34495e;
+    font-weight: normal;
+}
+
+th a {
+    text-decoration: none;
+    color: white;
+}
+
+th a:hover {
+    color: #95a5a6;
+}
+
+/*alert_msg*/
+.alert_msg  {
+    font-family: Verdana;
+    margin: 200px auto;
+    text-align: center;
+}
+
+.alert_msg a {
+    text-decoration: none;
+}
